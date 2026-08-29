@@ -157,6 +157,158 @@ int main()
 //     cout<<v[1];
 // }
 
+//counting numbers
+// int main()
+// {
+//     int n,num=0,c=0;
+//     cout<<"enter number";
+//     cin>>n;
+//     while(n>0)
+//     {
+//         num=n%10;
+//         c+=1;
+//         n=n/10;
+//     }
+//     cout<<"count is"<<c;
+// }
+
+
+//reverse a number
+// int main()
+
+// {
+//     int n,rev=0,num;
+    
+//     cout<<"enter number";
+//     cin>>n;
+    
+//     while(n>0)
+//     {
+//         num=n%10;
+//         rev=(rev*10) +num;
+//         n=n/10;
+//     }
+//     cout<<"reverse number is:"<<rev;
+// }
+
+
+//palindrome
+// int main()
+
+// {
+//     int n,rev=0,num;
+    
+//     cout<<"enter number";
+//     cin>>n;
+//      int dup=n;
+    
+//     while(n>0)
+//     {
+//         num=n%10;
+//         rev=(rev*10) +num;
+//         n=n/10;
+//     }
+//     if(rev==dup)
+    
+//     cout<<"palindrome";
+    
+//     else
+    
+//     cout<<"not";
+    
+    
+
+    
+// }
+
+//armstrong number
+// int main()
+
+// {
+//     int n,num,sum=0;
+    
+//     cout<<"enter number";
+//     cin>>n;
+//      int dup=n;
+    
+//     while(n>0)
+//     {
+//         num=n%10;
+//         sum= sum+(num*num*num);
+//         n=n/10;
+//     }
+//     if(sum==dup)
+    
+//     cout<<"yes";
+    
+//     else
+    
+//     cout<<"not";
+// } 
+
+
+//printing all divisors
+// int main()
+// {
+//     int n;
+//     cin>>n;
+//     for(int i=1;i<=n;i++)
+//     {
+//         if(n%i==0)
+//         {
+//             cout<<i<<endl;
+            
+//         }
+//     }
+// }
+
+//divisors(fr tc o(sqrt(n) + o(nlogn)))
+// int main()
+// {
+//     int n;
+//     cin>>n;
+//     for(int i=1;i*i<=n;i++)
+//     {
+//         if(n%i==0)
+//         {
+//             cout<<i<<" ";
+//             if((n/i)!=i)
+//             {
+//                 cout<<(n/i)<<" ";
+//             }
+//         }
+        
+         
+//      }
+// }
+//for sorting use list
+
+
+//gcd
+int main()
+{
+    int n,m,gdc;
+    cin>>n>>m;
+    for( int i=1;i<=min(n,m);i++)
+    {
+        if(n%i==0 && m%i==0)
+        {
+            gdc=i;
+        }
+    }
+    cout<<"gdc is:"<<gdc;
+
+}
+    
+
+
+
+    
+
+
+
+
+
 
 
 
